@@ -4,7 +4,7 @@ My Curriculum Vitae in Latex. Source files from CV of [Adrien Friggeri](https://
 
 # Installation on OS X
 
-Install [Basic TeX(http://www.tug.org/mactex/morepackages.html) and then run following to install packages.
+Install [Basic TeX](http://www.tug.org/mactex/morepackages.html) and then run following to install packages.
 
 ```
 tlmgr update --self
