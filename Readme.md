@@ -13,4 +13,6 @@ tlmgr install unicode-math textpos ucharcat filehook biblatex logreq xstring lm-
 
 # Compilation
 
-Run `xelatex cv.tex` to compile.
+```
+xelatex cv.tex
+```
