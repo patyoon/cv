@@ -2,7 +2,7 @@
 
 My Curriculum Vitae in Latex. Source files from CV of [Adrien Friggeri](https://github.com/afriggeri/).
 
-# Installation on OS X
+# Prerequisite (OS X)
 
 Install [Basic TeX](http://www.tug.org/mactex/morepackages.html) and then run following to install packages.
 
