@@ -4,11 +4,19 @@ My Curriculum Vitae in Latex. Source files from CV of [Adrien Friggeri](https://
 
 # Prerequisite (OS X)
 
-Install [Basic TeX](http://www.tug.org/mactex/morepackages.html) and then run following to install packages.
+1. Install [Basic TeX](http://www.tug.org/mactex/morepackages.html) and then run following to install packages.
+
+2. Set `PATH`
+
+```bash
+PATH=/usr/local/texlive/2022basic/bin/universal-darwin:$PATH; export PATH
+```
+
+3. Install packages
 
 ```
-tlmgr update --self
-tlmgr install unicode-math textpos ucharcat filehook biblatex logreq xstring lm-math
+sudo tlmgr update --self
+sudo tlmgr install unicode-math textpos ucharcat filehook biblatex logreq xstring lm-math
 ```
 
 # Compilation
@@ -16,3 +24,5 @@ tlmgr install unicode-math textpos ucharcat filehook biblatex logreq xstring lm-
 ```
 xelatex cv.tex
 ```
+
+Last updated 2022/10/01.
