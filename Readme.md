@@ -9,7 +9,7 @@ My Curriculum Vitae in Latex. Source files from CV of [Adrien Friggeri](https://
 2. Set `PATH`
 
 ```bash
-PATH=/usr/local/texlive/2022basic/bin/universal-darwin:$PATH; export PATH
+PATH=/usr/local/texlive/2025basic/bin/universal-darwin:$PATH; export PATH
 ```
 
 3. Install packages
@@ -25,4 +25,4 @@ sudo tlmgr install unicode-math textpos ucharcat filehook biblatex logreq xstrin
 xelatex cv.tex
 ```
 
-Last updated 2022/10/01.
+Last updated 2026/02/23.
